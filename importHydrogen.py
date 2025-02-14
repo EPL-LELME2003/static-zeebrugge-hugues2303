@@ -24,7 +24,7 @@ model = pyo.ConcreteModel()
 ##########################################
 
 # Specify the path towards your solver (gurobi) file
-solver = pyo.SolverFactory('...')
+solver = pyo.SolverFactory('/Users/huguesc/Documents/UCL/2024-2025/M1Q2/LELME2003_project_energy')
 sol = solver.solve(model)
 
 # Print here the number of CH4 boats and NH3 boats
